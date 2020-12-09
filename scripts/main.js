@@ -1,5 +1,5 @@
 // On start load default content, yo
-openContent('home');
+openContent('about');
 
 // Load Dynamic Content
 function openContent(content) {
