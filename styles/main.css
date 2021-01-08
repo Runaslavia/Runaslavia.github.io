@@ -24,6 +24,10 @@ h1 {
   font-size: 2.4em;
 }
 
+p {
+  margin-bottom: 1em;
+}
+
 .mainContainer {
   margin: 0 auto;
   max-width: 1400px;
@@ -106,10 +110,13 @@ nav ul li {
 }
 
 .sectionTitle {
-  background-color: #eeeeee;
-  border: 1px solid #aaaaaa;
   font-size: 1.4em;
   margin-bottom: 20px;
+}
+
+.card {
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
   padding: 10px;
 }
 
