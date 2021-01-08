@@ -1,4 +1,4 @@
-// On start load default content, yo
+// On start load default content
 openContent('about');
 
 // Load Dynamic Content
