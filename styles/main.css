@@ -28,7 +28,7 @@ h1 {
   margin: 0 auto;
   max-width: 1400px;
   /* min-width: 300px; */
-  padding: 15px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -38,6 +38,7 @@ h1 {
   font-size: 1.1em;
   justify-content: space-between;
   padding: 20px;
+  padding-top: 0px;
 }
 
 .header a {
@@ -107,7 +108,9 @@ nav ul li {
 .sectionTitle {
   background-color: #eeeeee;
   border: 1px solid #aaaaaa;
-  padding: 5px 20px;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 footer {
