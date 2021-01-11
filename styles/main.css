@@ -24,6 +24,18 @@ h1 {
   font-size: 2.4em;
 }
 
+h3 {
+  color: palevioletred;
+}
+
+h4 {
+  color: darkblue
+}
+
+img {
+  border-radius: 3px;
+}
+
 p {
   margin-bottom: 1em;
 }
@@ -55,11 +67,15 @@ p {
 }
 
 .header .logo {
+  border: 2px solid palevioletred;
   font-size: 1.6em;
+  padding: 10px 20px;
+  text-align: center;
+  width: auto;
 }
 
 .stickyHeader {
-  background-color: #eeeeee;
+  background-color: #f1f2f7;
   left: 0;
   margin: 0;
   opacity: 1;
@@ -90,6 +106,7 @@ nav ul {
   flex-wrap: wrap;
   font-weight: bold;
   list-style: none;
+  margin: 0;
   padding: 0px;
 }
 
@@ -115,9 +132,10 @@ nav ul li {
 }
 
 .card {
-  background-color: #eeeeee;
-  border: 1px solid #cccccc;
-  padding: 10px;
+  background-color: #f1f2f7;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  padding: 20px;
 }
 
 footer {
@@ -183,6 +201,12 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+  .header, nav ul {
+    flex-direction: column;
+  }
+  .header .logo {
+    width: 100%;
+  }
   nav ul li {
     margin: 0;
   }
