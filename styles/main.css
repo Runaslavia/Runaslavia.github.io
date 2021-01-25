@@ -135,10 +135,11 @@ nav ul li {
 }
 
 .card {
-  background-color: #f1f2f7;
+  background-color: #e7229b;
   border: 1px solid #d1d5da;
   border-radius: 3px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
